@@ -5,7 +5,7 @@ namespace ChatApi.Services
     public class ChatService
     {
         private static readonly Dictionary<string, string> Users = new Dictionary<string,string>();
-        public bool AddUserToLis(string userToAdd)
+        public bool AddUserToList(string userToAdd)
         {
             lock(Users)
             {
