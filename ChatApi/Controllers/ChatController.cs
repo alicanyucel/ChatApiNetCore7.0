@@ -7,5 +7,6 @@ namespace ChatApi.Controllers
     [ApiController]
     public class ChatController : ControllerBase
     {
+        // deneme github commit
     }
 }
