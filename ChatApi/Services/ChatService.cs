@@ -38,5 +38,29 @@ namespace ChatApi.Services
                 return Users.Where(x => x.Value == connectionId).Select(x => x.Key).FirstOrDefault();
             }
         }
+        public string GetConnectionByUser(string user)
+        {
+           lock(Users)
+            {
+                return Users.Where(x => x.Key == user).Select(x => x.Value).FirstOrDefault();
+            }
+        }
+        public void RemoveUserFromList(string user)
+        {
+            lock (Users)
+            {
+                if(Users.ContainsKey(user))
+                {
+                    Users.Remove(user);
+                }
+            }
+        }
+        public string[] GetOnlineUsers()
+        {
+            lock (Users)
+            {
+                return Users.OrderBy(x => x.Key).Select(x => x.Key).ToArray();
+            }
+        }
     }
 }
