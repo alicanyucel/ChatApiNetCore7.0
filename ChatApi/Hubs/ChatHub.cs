@@ -1,6 +1,8 @@
-﻿namespace ChatApi.Hub
+﻿using Microsoft.AspNetCore.SignalR;
+
+namespace ChatApi.Hubs
 {
-    public class ChatHub
+    public class ChatHub:Hub
     {
     }
 }
