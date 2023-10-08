@@ -21,5 +21,22 @@ namespace ChatApi.Services
             }
 
         }
+        public void AddUserConnectionId(string user,string connectionId)
+        {
+            lock(Users)
+            {
+                if(Users.ContainsKey(user))
+                {
+                    Users[user] = connectionId;
+                }
+            }
+        }
+        public string GetUserByConnectionId(string connectionId)
+        {
+            lock (Users)
+            {
+                return Users.Where(x => x.Value == connectionId).Select(x => x.Key).FirstOrDefault();
+            }
+        }
     }
 }
