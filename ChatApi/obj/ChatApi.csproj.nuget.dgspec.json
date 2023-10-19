@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alican\\Source\\Repos\\ChatApiNetCore7\\ChatApi\\ChatApi.csproj": {}
+    "C:\\Users\\Alican\\Source\\Repos\\ChatApiNetCore\\ChatApi\\ChatApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alican\\Source\\Repos\\ChatApiNetCore7\\ChatApi\\ChatApi.csproj": {
+    "C:\\Users\\Alican\\Source\\Repos\\ChatApiNetCore\\ChatApi\\ChatApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alican\\Source\\Repos\\ChatApiNetCore7\\ChatApi\\ChatApi.csproj",
+        "projectUniqueName": "C:\\Users\\Alican\\Source\\Repos\\ChatApiNetCore\\ChatApi\\ChatApi.csproj",
         "projectName": "ChatApi",
-        "projectPath": "C:\\Users\\Alican\\Source\\Repos\\ChatApiNetCore7\\ChatApi\\ChatApi.csproj",
+        "projectPath": "C:\\Users\\Alican\\Source\\Repos\\ChatApiNetCore\\ChatApi\\ChatApi.csproj",
         "packagesPath": "C:\\Users\\Alican\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alican\\Source\\Repos\\ChatApiNetCore7\\ChatApi\\obj\\",
+        "outputPath": "C:\\Users\\Alican\\Source\\Repos\\ChatApiNetCore\\ChatApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
