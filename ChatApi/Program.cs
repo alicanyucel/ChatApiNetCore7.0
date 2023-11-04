@@ -12,5 +12,5 @@ var app = builder.Build();
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
-app.MapHub<ChatHub>("hubs/chat"); // map 
+app.MapHub<ChatHub>("hubs/chat"); // map added.
 app.Run();
