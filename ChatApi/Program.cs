@@ -11,6 +11,8 @@ builder.Services.AddEndpointsApiExplorer();
 var app = builder.Build();
 app.UseHttpsRedirection();
 app.UseAuthorization();
+app.UseDefaultFiles();
+app.UseStaticFiles();
 app.MapControllers();
 app.MapHub<ChatHub>("hubs/chat"); // map added.
 app.Run();
