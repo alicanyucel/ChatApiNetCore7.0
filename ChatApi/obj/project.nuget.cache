@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WeW0oWhrWesQnhjIySxcLXGddWjwv65S9gIaWe+/136jVjR5ir5WvyiCKv2ADoQpXpitQei5wEve4T1hjcZm0g==",
+  "dgSpecHash": "UJ8PcxM3V3waTuAIHoPm9iBEvHbyA8pEun0PEbRcOibr38sGmWuNls1mRrCEk7SaipPmsk8BG2KIvoCW1LR2yA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alican\\Source\\Repos\\Chat\\ChatApi\\ChatApi.csproj",
+  "projectFilePath": "C:\\Users\\Alican\\Source\\Repos\\ChatApiNetCore7.0m\\ChatApi\\ChatApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.9\\microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
